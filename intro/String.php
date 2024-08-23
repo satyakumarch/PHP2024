@@ -4,14 +4,16 @@ $greeeting="hello ,$name";
 echo $greeeting;
 
 //concatenation
-$fullgreeting=$greeeting."how are you: </br>";
+$fullgreeting=$greeeting."how are you: ";
 echo $fullgreeting;
+
 
 //string length
 echo strlen($fullgreeting);
 
 //uppercase and lowercase
 echo strtoupper($fullgreeting);
+
 echo strtolower($fullgreeting);
 
 
