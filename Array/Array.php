@@ -12,10 +12,6 @@ $result=array(
     array('name'=>"shyam",'cgpa'=>3.78,'status'=>"fail"),
     array('name'=>"avinash",'cgpa'=>0.78,'status'=>"pass"),
     array('name'=>"mahendra",'cgpa'=>9.78,'status'=>"fail"),
-
-
-
-    
 );
 $names=array_column($result,'status','name');
 print_r($names);
