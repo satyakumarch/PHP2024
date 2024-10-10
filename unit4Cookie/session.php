@@ -1,11 +1,18 @@
 <?php
 session_start();
-echo "The id of the session is:".session_id();
-$_SESSION[''] = "John Watkin";
+
+$_SESSION['id'] = "1234556";
+$_SESSION['name'] = 'satya kumar chaudhary';
 echo "<br>";
-if(isset($_SESSION['testSession'])){
-    echo $_SESSION['testSession'];
-}else{
-    echo "Session testSession is not set";
-}
+echo 'The id of the session is: ' . $_SESSION['id'] . '<br>';
+echo "<br>";
+echo 'The name of the session is: ' . $_SESSION['name'] . '<br>';
+?>
+// $_SESSION[''] = "John Watkin";
+// echo "<br>";
+// if(isset($_SESSION['testSession'])){
+//     echo $_SESSION['testSession'];
+// }else{
+//     echo "Session testSession is not set";
+// }
 ?>
