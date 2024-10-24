@@ -9,7 +9,7 @@ if (isset($_POST['submit']))
 	} 
 	else
 	{ 
-		$firstname = $_POST['firstname']; 
+		$firstname = $_POST['firstname']; w
 		$lastname = $_POST['lastname']; 
 		$address = $_POST['address']; 
 		$emailaddress = $_POST['emailaddress']; 

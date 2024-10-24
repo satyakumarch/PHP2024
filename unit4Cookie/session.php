@@ -7,12 +7,14 @@ echo "<br>";
 echo 'The id of the session is: ' . $_SESSION['id'] . '<br>';
 echo "<br>";
 echo 'The name of the session is: ' . $_SESSION['name'] . '<br>';
+
+if(isset($_SESSION['name'])){
+    unset($_SESSION['id']);
+}
+session_start();
+session_destroy();
+    
 ?>
-// $_SESSION[''] = "John Watkin";
-// echo "<br>";
-// if(isset($_SESSION['testSession'])){
-//     echo $_SESSION['testSession'];
-// }else{
-//     echo "Session testSession is not set";
-// }
-?>
+
+
+
