@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form with Validation</title>
+</head>
+<body>
+    <h2>Form Validation Example</h2>
+    <form action="validation.php" method="POST">
+        Name: <input type="text" name="name" required>
+        <span style="color:red;">
+            <?php echo isset($_GET['nameErr']) ? htmlspecialchars($_GET['nameErr']) : ''; ?>
+        </span>
+        <br><br>
+        
+        Email: <input type="email" name="email" required>
+        <span style="color:red;">
+            <?php echo isset($_GET['emailErr']) ? htmlspecialchars($_GET['emailErr']) : ''; ?>
+        </span>
+        <br><br>
+        
+        Address: <input type="text" name="address" required>
+        <span style="color:red;">
+            <?php echo isset($_GET['addressErr']) ? htmlspecialchars($_GET['addressErr']) : ''; ?>
+        </span>
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female" required> Female
+        <span style="color:red;">
+            <?php echo isset($_GET['genderErr']) ? htmlspecialchars($_GET['genderErr']) : ''; ?>
+        </span>
+        <br><br>
+        
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+</html>

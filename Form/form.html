@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,5 +17,18 @@
 
         <input type="submit" value="submit">
     </form>
-</body>
-</html>
+</body> 
+</html>  -->
+
+createa a form in php using html tag for user detail store at server side with mandatory field through GET or POST method in php
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = htmlspecialchars($_POST['name']);
+    $email = htmlspecialchars($_POST['email']);
+
+    // Here you can add code to store the data in a database or perform other actions
+
+    echo "Name: " . $name . "<br>";
+    echo "Email: " . $email . "<br>";
+}
+?>
