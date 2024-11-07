@@ -14,14 +14,16 @@ if(!$conn){
 }
 
 //create the database
-$databaseName="satyaPhp1";
+$databaseName="xg";
 $sql="CREATE DATABASE $databaseName";
 
 if(mysqli_query($conn,$sql)){
-    echo "Database '$databaseName' created successfully";
+    echo "Database '$databaseName' created successfully ";
+    echo "i can create a first database connect with php3";
 }else{
     echo "Error creating database:".mysqli_error($conn);
 }
+
 
 //close the connection
 mysqli_close($conn);
