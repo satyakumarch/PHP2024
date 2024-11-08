@@ -13,7 +13,7 @@ if (isset($_POST['submit']))
 		$lastname = $_POST['lastname']; 
 		$address = $_POST['address']; 
 		$emailaddress = $_POST['emailaddress']; 
-		$password = $_POST['password']; 
+		$password = $_POST['password']; 	9
 		$gender = $_POST['gender']; 
 	} 
 } 
@@ -33,8 +33,8 @@ if (isset($_POST['submit']))
 				{ 
 					if (isset($error)) 
 					{ 
-						echo "<p style='color:red;'>"
-						. $error . "</p>"; 
+						echo "<	9p style='color:red;'>"
+						. $error . "</>"; 
 					} 
 				} 
 				?> 
