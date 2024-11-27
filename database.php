@@ -1,30 +1,27 @@
 <?php
-//Database connection establish
+// Database connection establish
+$servername = "localhost:3306";
+$username = "root";
+$password = "";
 
-$servername="localhost:3306";
-$username="root";
-$password="";
+// Establish the connection
+$conn = mysqli_connect($servername, $username, $password);
 
-//Establish the connection
-$conn=mysqli_connect($servername,$username,$password);
-
-//Check the connection
-if(!$conn){
-    die("Connection faied".mysqli_connect_error());
+// Check the connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
 }
 
-//create the database
-$databaseName="xg";
-$sql="CREATE DATABASE $databaseName";
+// Create the database
+$databaseName = "phpmyadmin";
+$sql = "CREATE DATABASE IF NOT EXISTS $databaseName"; // Add IF NOT EXISTS to prevent errors
 
-if(mysqli_query($conn,$sql)){
-    echo "Database '$databaseName' created successfully ";
-    echo "i can create a first database connect with php3";
-}else{
-    echo "Error creating database:".mysqli_error($conn);
+if (mysqli_query($conn, $sql)) {
+    echo "Database '$databaseName' created successfully or already exists.";
+} else {
+    echo "Error creating database: " . mysqli_error($conn);
 }
 
-
-//close the connection
+// Close the connection
 mysqli_close($conn);
 ?>

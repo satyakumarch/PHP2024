@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "satyaphp1";
+$dbname = "satya";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 
 // SQL to create table with additional attributes
-$sql = "CREATE TABLE Avinandan (
+$sql = "CREATE TABLE satyaphp1 (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 firstname VARCHAR(30) NOT NULL,
 lastname VARCHAR(30) NOT NULL,
@@ -33,7 +33,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 // SQL to insert multiple rows with values for all attributes
-$sql = "INSERT INTO Avinandan (firstname, lastname, email, reg_date, phone, address, city, state, zip_code) VALUES
+$sql = "INSERT INTO satyaphp1(firstname, lastname, email, reg_date, phone, address, city, state, zip_code) VALUES
 ('John', 'Doe', 'john.doe@example.com', NOW(), '123-456-7890', '123 Main St', 'Anytown', 'Anystate', '12345'),
 ('Jane', 'Smith', 'jane.smith@example.com', NOW(), '234-567-8901', '456 Elm St', 'Othertown', 'Otherstate', '23456'),
 ('Alice', 'Johnson', 'alice.johnson@example.com', NOW(), '345-678-9012', '789 Oak St', 'Sometown', 'Somestate', '34567'),
