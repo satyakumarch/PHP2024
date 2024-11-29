@@ -10,7 +10,7 @@ $conn = mysqli_connect($servername, $username, $password);
 
 // Check the connection
 if (!$conn) {
-    die("Persistent connection failed: " . mysqli_connect_error());
+    die("Persistent can connection failed: " . mysqli_connect_error());
 }
 
 // Create the database
