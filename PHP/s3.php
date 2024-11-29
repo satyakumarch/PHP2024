@@ -10,7 +10,7 @@ $conn = mysqli_connect($servername, $username, $password);
 
 // Check connection
 if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+    die("Connection  to be failed: " . mysqli_connect_error());
 }
 
 // 1. CREATE DATABASE
