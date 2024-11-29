@@ -22,8 +22,9 @@ class Book {
 }
 
 // Creating an object of the Book class
-$book1 = new Book("1984", "George Orwell", 15.99);
+$book1 = new Book("", "", 15.99);
 
 // Calling the method to display the details of the book
 $book1->displayDetails();
 ?>
+
