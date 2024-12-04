@@ -536,9 +536,38 @@ Below are the PHP solutions to the requested problems:
 
    echo sumOfNaturalNumbers(10); // Output: 55
    ?>
-   
 
-30. *Access Array Elements Using PHP Program*
-   ```php
-   <?php
-   $arr = [10, 20
+![WhatsApp Image 2024-11-29 at 22 12 10_d83cb52d](https://github.com/user-attachments/assets/d3977bb1-5735-4e1a-aab0-dde4ff99cd29)
+
+
+![WhatsApp Image 2024-11-29 at 22 12 10_651d4a67](https://github.com/user-attachments/assets/51af97dd-e61e-4265-af8d-1ebbb257d4ab)
+
+
+![WhatsApp Image 2024-11-29 at 00 57 22_8a90ffed](https://github.com/user-attachments/assets/637ce409-7bf7-4900-b391-d8bd371aaa3c)
+
+
+![WhatsApp Image 2024-11-29 at 00 57 22_a6f9df5c](https://github.com/user-attachments/assets/a576e5b6-15df-41d7-8319-fbd7606c77ba)
+
+
+![WhatsApp Image 2024-11-29 at 00 57 22_e1a23dad](https://github.com/user-attachments/assets/e1649928-3351-440e-b78f-d5c19ed17f48)
+
+
+![WhatsApp Image 2024-11-29 at 00 57 22_edfc8758](https://github.com/user-attachments/assets/8c9a0416-4710-427f-88f1-0903006ebb2c)
+
+
+![WhatsApp Image 2024-11-29 at 00 57 22_79973ace](https://github.com/user-attachments/assets/ef68853c-9ff5-43bd-8e42-909d7c2984e9)
+
+
+![WhatsApp Image 2024-11-29 at 00 57 22_d5157f01](https://github.com/user-attachments/assets/0c07588b-581a-4feb-ac66-03ae2aaf4b20)
+
+
+![WhatsApp Image 2024-11-29 at 22 12 10_903c5b4d](https://github.com/user-attachments/assets/c55df872-cdc4-4a26-9eb9-636f67026e58)
+
+
+
+
+
+
+
+
+   
